@@ -1,1 +1,61 @@
 # GoMining-Monitor
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il mio primo sito</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #89cff0, #ffffff);
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        main {
+            padding: 2em;
+        }
+        button {
+            background: #ff6600;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #ff3300;
+        }
+        footer {
+            margin-top: 2em;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel mio sito!</h1>
+    </header>
+
+    <main>
+        <h2>Questo è un esempio creato con HTML e CSS</h2>
+        <p>Puoi modificarlo come vuoi e aggiungere le tue pagine.</p>
+        <button onclick="alert('Ciao! Questo è un pulsante funzionante 😁')">
+            Cliccami!
+        </button>
+    </main>
+
+    <footer>
+        <p>Creato da Me © 2025</p>
+    </footer>
+</body>
+</html>
